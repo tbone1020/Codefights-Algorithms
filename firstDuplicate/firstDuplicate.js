@@ -1,6 +1,6 @@
 const firstDuplicate = a => {
-	// Create an object to store 
-	// all array elements
+     // Create an object to store 
+     // all array elements
      const obj = {};
      // Loop through each of the array 
      // indexes and check if it exists
@@ -8,10 +8,10 @@ const firstDuplicate = a => {
 
      	// the array index exists
      	// that is the first duplicate
-        	if (obj[a[i]]) {
-          	return a[i];
-        	} else {
-            	obj[a[i]] = 1;
+        if (obj[a[i]]) {
+          return a[i];
+        } else {
+           obj[a[i]] = 1;
      	}
      }
      return -1; // If no duplicate was found return -1
