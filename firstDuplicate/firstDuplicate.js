@@ -2,12 +2,12 @@ const firstDuplicate = a => {
      // Create an object to store 
      // all array elements
      const obj = {};
-     // Loop through each of the array 
-     // indexes and check if it exists
+     // Loop through each of the array indexes
+     // and check if it exists in the object
      for (let i = 0; i < a.length; i++) {
 
-     	// the array index exists
-     	// that is the first duplicate
+        // if the array index exists
+        // then we found the first duplicate
         if (obj[a[i]]) {
           return a[i];
         } else {
