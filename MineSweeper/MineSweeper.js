@@ -13,7 +13,7 @@ const board = [
 
 const minesweeper = matrix => {
     let arr = [];
-    let len = matrix[0].length + 2; // Grab the new length of the array
+    let len = matrix[0].length + 2; // Add two to the length of the array
     matrix.push([]);
     matrix.unshift([]);
 
@@ -21,7 +21,7 @@ const minesweeper = matrix => {
     // so we have to add "0" to the edges
     for (let i = 0; i < matrix.length; i++) {
         if (i === 0 || i === matrix.length - 1) {
-            // fill the first and last row of the array with "0"
+            // Fill the first and last row of the array with "0"
             for (let x = 0; x < len; x++)
                 matrix[i].push(0);
         } else {
@@ -36,7 +36,7 @@ const minesweeper = matrix => {
         let innerArr = [];
         for (let x = 1; x < matrix[y].length - 1; x++) {
             let count = 0;
-            // While looping through, check the surrounding array indexes for "true"
+            // While looping through, check the surrounding array indexes for "true",
             // this indicates there is a mine
             for (let inner = -1; inner <= 1; inner++) {
                 for (let outer = -1; outer <= 1; outer++) {
