@@ -1,6 +1,5 @@
 const sumOfTwo = (a, b, v) => {
-    // Declare an object for storing elements from 
-    // array "b" for quick retrieval
+    // Declare an object for storing elements from array "b" for quick retrieval
     const obj = {};
     
     for (let x = 0; x < b.length; x++)
