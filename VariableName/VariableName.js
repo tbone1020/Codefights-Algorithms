@@ -1,6 +1,6 @@
 /*
 	A valid variable name contains only letters, underscores, and numbers, no numbers at the beginning or special charaters.
-	This algorithm checks a string to determine if it's a valid variable name
+	This algorithm checks a string to determine if the variable name is valid.
 */
 
 const variableName = name => {
