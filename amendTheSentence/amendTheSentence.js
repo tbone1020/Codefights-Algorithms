@@ -22,4 +22,4 @@ const amendTheSentence = s => {
 }
 
 let sentence = amendTheSentence("TrentTeebkenIsAFrontEndEngineer");
-console.log(`${sentence}`);
+console.log(`${sentence}`); // Outputs trent teebken is a front end engineer
