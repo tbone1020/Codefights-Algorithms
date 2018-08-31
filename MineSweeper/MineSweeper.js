@@ -41,7 +41,7 @@ const minesweeper = matrix => {
             for (let inner = -1; inner <= 1; inner++) {
                 for (let outer = -1; outer <= 1; outer++) {
                     
-                    // Make sure to not count the center
+                    // Make sure to not count the center index
                     if (matrix[y + inner][x + outer] == true && !(y + inner === y && x + outer === x)) {
                         count++;
                     }
