@@ -3,7 +3,7 @@ def amendTheSentence(str)
 	spStr = str.split(/(?:([A-Z]{1}[a-z]*))/)	
 	for word in spStr
 		if word != ''
-            sentence += word + " ";
+            		sentence += word + " ";
         	end
 	end
 	return sentence
