@@ -7,7 +7,7 @@ const climbingStairs = (n, memo) => {
     // Determine if the memo object exists
     memo = memo || {}
 
-    // Check if the object contains the calculated value
+    // Check if the memo object contains the calculated value
     if (memo[n])
         return memo[n];
 
