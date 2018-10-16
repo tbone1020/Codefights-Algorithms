@@ -10,7 +10,7 @@ const amendTheSentence = s => {
     let final = '';
 
     // Loop through the spStr array and if the array 
-    // index is not an empty string append it tp the final string 
+    // index is not an empty string append it to the final string 
     for (let i = 0; i < spStr.length; i++) {
         if (spStr[i] !== '') {
             // Only set the beginning word to capitalize using a ternary operator
