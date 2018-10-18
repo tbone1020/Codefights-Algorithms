@@ -1,5 +1,5 @@
 /*
-	A recursive Fibonacci Sequece algorithm. To reduce the time complexity and overall speed, we use what 
+	A recursive Fibonacci algorithm. To reduce the time complexity and overall speed, we use what 
 	is called memoization which stores calculated values so we can use them later.
 */
 
