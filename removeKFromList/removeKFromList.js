@@ -1,5 +1,5 @@
 /*
-  Removes the number in the variable k from the linked list by looping through the list and adding the values if the don't equal the variable k
+  Removes the number in the variable k from the linked list.
 */
 
 ListNode = {
